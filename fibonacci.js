@@ -7,7 +7,7 @@ if (x === 1) {
 return s;
     }
 }
-console.log(fibonacci(8).filter(function(d){
+console.log(fibonacci(5000).filter(function(d){
     if (d%2 == 0) {
         return d;
     }
